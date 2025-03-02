@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .input-group input, 
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #generateExcuse, #copyExcuse {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  #generateExcuse:hover, #copyExcuse:hover {
+    background-color: #45a049;
+  }
+  #loading, #errorMessage {
+    text-align: center;
+    color: #666;
+    display: none;
+    margin: 10px 0;
+  }
+  #errorMessage {
+    color: red;
+  }
+  #excuseContainer {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+  }
+  #apiKeyInput, #endpointInput {
+    margin-bottom: 20px;
+  }
+  #copyExcuse {
+    display: block;
+    margin-top: 10px;
+    background-color: #2196F3;
+  }
+  #copyExcuse:hover {
+    background-color: #1976D2;
+  }
+  #otherToneInput {
+    display: none;
+  }
